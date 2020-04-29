@@ -1,7 +1,6 @@
 # Docker hitema
 
 ### commandes trouvées so far
-Tout simplement un paragraphe. 
 
 `docker pull hello-world`
 
