@@ -38,3 +38,7 @@ donne quelque chose comme ça
 
 [ressource: gettin started docker (windows)](https://docs.docker.com/docker-for-windows/)
 
+**-it et -interactive font ils la meme chose?????? a voir**
+
+`docker container ls`  
+affiche seulement les conteneur actifs  
