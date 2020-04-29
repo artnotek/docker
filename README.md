@@ -8,9 +8,8 @@
 
 **explication**
 * « docker run lance une application »
-* « - it » : cet attribut permet d’avoir un conteneur interactif : juste après la saisie de la commande, le conteneur sera accessible et vous serez « dedans ».
-* « --name czsCT » : chaque conteneur a un numéro d’identification, un ID. Vous pouvez aussi lui donner un nom (tag) pour savoir plus rapidement et instinctivement à quoi correspond votre conteneur.
-Les paragraphes doivent être séparés par un retour à la ligne.
+* « - it » : cet attribut permet d’avoir un conteneur interactif : juste après la saisie de la commande, le conteneur sera accessible et on sera« dedans ».
+* « --name czsCT » : chaque conteneur a un numéro d’identification, un ID. on peut aussi lui donner un nom (tag) pour savoir plus rapidement et instinctivement à quoi correspond le conteneur.
 * « hello-world » : il s’agit du modèle sur lequel votre conteneur va se baser – ici, l’image d’un Nano Server.
 
 `docker ps -a`  
