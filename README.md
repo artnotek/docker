@@ -44,16 +44,16 @@ affiche seulement les conteneur actifs
 
 
 quelques commmandes rappel :
-`docker ps`
-`docker ps-a`
-`docker ps -a`
-`docker images`
-`docker rmi`
-`docker rm`
-`docker exec`
-`docker exec -it`
-`docker exec -it MonContainer /bin/bash`
-`#d345frg567`
-`docker inspect MonContainer`
-`docker build -t nomImage .`
-`docker build -t nomImage:01 .`
+`docker ps`  
+`docker ps-a`  
+`docker ps -a`  
+`docker images`  
+`docker rmi`  
+`docker rm`  
+`docker exec`  
+`docker exec -it`  
+`docker exec -it MonContainer /bin/bash`  
+`#d345frg567`  
+`docker inspect MonContainer`  
+`docker build -t nomImage .`  
+`docker build -t nomImage:01 .`  
