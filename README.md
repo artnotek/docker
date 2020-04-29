@@ -16,10 +16,10 @@
 affiche la liste des conteneurs système
 
 `docker image ls`  
-liste les images hello-world pullée du docker hub
+liste les conteneurs hello-world
 
 `docker image ls --all`  
-liste les conteneurs hello-world 
+liste  toutes les images pullée du docker hub actuellement sur l'ordi **et actives**
 
 
 | REPOSITORY    |     TAG         |   IMAGE ID  |   CREATED    |   SIZE  |  
