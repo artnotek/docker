@@ -21,6 +21,10 @@ liste les images hello-world pullée du docker hub
 
 `docker image ls --all`
 liste les conteneurs hello-world 
-`REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
-hello-world         latest              bf756fb1ae65        3 months ago        13.3kB`
+
+
+| REPOSITORY    |     TAG         |   IMAGE ID  |   CREATED    |   SIZE  |
+| ------------- |: -------------: |: ---------: |: ----------: |: -----: |
+| hello-world   |     latest      | bf756fb1ae65| 3 months ago | 13.3kB  |
+
 donne quelque chose comme ça
