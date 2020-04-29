@@ -15,3 +15,12 @@ Les paragraphes doivent être séparés par un retour à la ligne.
 
 `docker ps -a`
 affiche la liste des conteneurs système
+
+`docker image ls`
+liste les images hello-world pullée du docker hub
+
+`docker image ls --all`
+liste les conteneurs hello-world 
+`REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+hello-world         latest              bf756fb1ae65        3 months ago        13.3kB`
+donne quelque chose comme ça
