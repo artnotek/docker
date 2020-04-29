@@ -13,18 +13,28 @@
 Les paragraphes doivent être séparés par un retour à la ligne.
 * « hello-world » : il s’agit du modèle sur lequel votre conteneur va se baser – ici, l’image d’un Nano Server.
 
-`docker ps -a`
+`docker ps -a`  
 affiche la liste des conteneurs système
 
-`docker image ls`
+`docker image ls`  
 liste les images hello-world pullée du docker hub
 
-`docker image ls --all`
+`docker image ls --all`  
 liste les conteneurs hello-world 
 
 
-| REPOSITORY    |     TAG         |   IMAGE ID  |   CREATED    |   SIZE  |
-| ------------- |: -------------: |: ---------: |: ----------: |: -----: |
-| hello-world   |     latest      | bf756fb1ae65| 3 months ago | 13.3kB  |
+| REPOSITORY    |     TAG         |   IMAGE ID  |   CREATED    |   SIZE  |  
+| ------------- |: -------------: |: ---------: |: ----------: |: -----: |  
+| hello-world   |     latest      | bf756fb1ae65| 3 months ago | 13.3kB  |  
 
 donne quelque chose comme ça
+
+### pour obtenir de l'aide
+* docker --help
+* docker container --help
+* docker container ls --help
+* docker run --help
+
+
+[ressource: gettin started docker (windows)](https://docs.docker.com/docker-for-windows/)
+
