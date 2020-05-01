@@ -10,11 +10,18 @@ MAINTAINER artnotek<artnotek@localhost>
 COPY . /workspace
 
 # ADD fait le travail de création
-Add requirements.txt
+# Add requirements.txt
 
-RUN apt-get update  && apt-get install -y python pip vim git
+RUN apt-get update  && apt-get install -y python3 pip3 vim git jupyter
 
+RUN pip3 freeze > requirements.txt
 RUN git config --global user.email "jeancharle@hitema.com" && git config --global user.name "JeanCharle"
+
+RUN cd workspace && git clone https://github.com/artnotek/python_v2 && cd python_v2
+
+RUN dir
+
+CMD ["dir"]
 
 
 #test pour afficher si le dossier workspace a bien été crée
