@@ -23,7 +23,9 @@ RUN cd workspace && git clone https://github.com/artnotek/python_v2 && cd python
 
 RUN dir
 
-
+WORKDIR /workspace
+EXPOSE 8000
+CMD ["jupyter", "notebook"]
 
 
 #test pour afficher si le dossier workspace a bien été crée
