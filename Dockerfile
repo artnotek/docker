@@ -23,7 +23,7 @@ RUN cd workspace && git clone https://github.com/artnotek/python_v2 && cd python
 
 RUN dir
 
-CMD ["dir"]
+CMD ["jupyter", "notebook", "--port=8000", "--no-browser", "--ip=0.0.0.0", "--allow-root"] 
 
 
 #test pour afficher si le dossier workspace a bien été crée
