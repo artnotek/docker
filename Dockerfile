@@ -12,7 +12,9 @@ COPY . /workspace
 # ADD fait le travail de création
 # Add requirements.txt
 
-RUN apt-get update  && apt-get install -y python3 pip3 vim git jupyter
+USER root
+
+RUN apt-get update && apt-get install -y python3-pip git vim
 
 RUN pip3 freeze > requirements.txt
 RUN git config --global user.email "jeancharle@hitema.com" && git config --global user.name "JeanCharle"
