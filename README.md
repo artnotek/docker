@@ -57,3 +57,9 @@ quelques commmandes rappel :
 `docker inspect MonContainer`  
 `docker build -t nomImage .`  
 `docker build -t nomImage:01 .`  
+
+# question a la fin de benjamin
+`$ sudo groupadd docker`  
+`$ sudo gpasswd -a $USER docker`  
+la première sert a créer un groupe d'utilisateurs et la seconde un mot de passe pour pourtéger ce groupe  
+dans l'idée de créer par ex des répertoires uniquement accecibles a des groupes en particulier
